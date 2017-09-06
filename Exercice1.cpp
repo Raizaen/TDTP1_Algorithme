@@ -4,18 +4,13 @@ using namespace std;
 
 int main()
 {
+	int a(0), b(0); // a et b deux entiers 
+
     cout << "Entrez un entier : ";
-
-        int a(0);
-
-            cin >> a;
+            cin >> a; // Saisir a
 
     cout << "Entrez un autre entier : ";
-
-        int b(0);
-
-            cin >> b;
-
+            cin >> b; // Saisir b
     cout << "Le produit de " << a << " par " << b << " est " << a * b;
 
     return 0;
