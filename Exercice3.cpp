@@ -4,13 +4,9 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int m;
-    int i;
-    int ac;
-    int mc;
-    int ic;
-    float moy;
+    double a, m, i;
+    double ac, mc, ic;
+    double moy;
 
     cout << "Note en Anglais : ";
 
